@@ -1,0 +1,19 @@
+.card{
+    opacity:0.9
+}
+
+.card:hover{
+    opacity:1;
+}
+
+
+
+.fav{
+    background-color: transparent;
+    border: none;
+    color: red;
+    
+}
+.like{
+    width: 100%;
+}

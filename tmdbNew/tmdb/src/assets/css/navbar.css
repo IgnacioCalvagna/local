@@ -1,0 +1,65 @@
+.lightNav {
+  background-color: #0ea5e9;
+}
+.darkNav {
+  background-color: #3d3b3b;
+
+}
+
+
+.DarModeBtn {
+  justify-content: center;
+  padding: 5% 6%;
+  border-radius: 100px;
+  border: none;
+}
+
+.dark {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.light {
+  background: rgb(231, 185, 121);
+  background: radial-gradient(
+    circle,
+    rgba(231, 185, 121, 1) 0%,
+    rgb(88, 106, 208) 100%
+  );
+}
+
+.moon {
+  color: rgb(230, 239, 192);
+}
+
+/* @media (max-width: 400) {
+  .DarModeBtn {
+    justify-content: center;
+    padding: 5% 6%;
+    border-radius: 100px;
+    border: none;
+  }
+} */
+
+
+@media (min-width: 1400px) {
+  .DarModeBtn {
+
+    
+    padding: 25% 50%; 
+  }
+  .lightNav {
+    background-color: #0ea5e9;
+
+    
+  }
+  .darkNav {
+    
+    background-color: #3d3b3b;
+  
+  }
+}

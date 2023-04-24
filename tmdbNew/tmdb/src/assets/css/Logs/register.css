@@ -1,0 +1,174 @@
+.errores {
+    color: #881337;
+    margin-bottom: 5%;
+  }
+  .botonCheckInputs {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+  
+    padding: 1% 3%;
+  }
+  
+  .contenedorRegisterForm {
+    height: 100vh;
+    margin-top: 5%;
+  }
+  .registerFormDark {
+    width: 90%;
+  
+    padding: 8%;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      180deg,
+      rgba(131, 58, 180, 1) 12%,
+      rgba(14, 165, 233, 1) 40%,
+      rgba(69, 131, 252, 1) 87%,
+      rgba(69, 131, 252, 1) 87%
+    );
+  
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  .registerFormLight {
+    width: 90%;
+  
+    padding: 8%;
+    background: rgb(238, 174, 202);
+    background: -moz-linear-gradient(
+      0deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(187, 233, 148, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      0deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(187, 233, 148, 1) 100%
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(187, 233, 148, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#bbe994",GradientType=1);
+  
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  
+  /* ?  DARK MODE BOTON LOGGIN */
+  
+  .botonRegisterDark {
+    padding: 10px 16px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    background-color: #353232;
+    color: white;
+  }
+  .botonRegisterDark:hover {
+    background-color: #524f4f;
+  }
+  
+  /* ?  LIGHT MODE BOTON LOGGIN */
+  .botonRegisterLight {
+    padding: 10px 16px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #0369a1;
+  }
+  .botonRegisterLight:hover {
+    background-color: #0ea5e9;
+  }
+  
+  .botonChangeType {
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 2% 3%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 1400px) {
+    .contenedorRegisterForm {
+      /* height: 76.17vh; */
+      margin-top: 2%;
+    }
+    .tituloRegister {
+      /* color: white; */
+      background: -webkit-linear-gradient(rgb(107, 191, 84),rgb(130, 209, 238),rgb(86, 105, 214));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: tomato;  
+    }
+  
+    /* ?  FORM LOGGIN DARK MODE  LIGHT MODE  */
+    .registerFormDark {
+      width: 45%;
+      padding: 8%;
+      background: rgb(131, 58, 180);
+      background: linear-gradient(
+        180deg,
+        rgba(131, 58, 180, 1) 12%,
+        rgba(14, 165, 233, 1) 40%,
+        rgba(69, 131, 252, 1) 87%,
+        rgba(69, 131, 252, 1) 87%
+      );
+  
+      margin: 0 auto;
+      border-radius: 30px;
+    }
+    .registerFormLight {
+      width: 45%;
+      padding: 8%;
+      background: rgb(89, 180, 58);
+      background: -moz-linear-gradient(
+        180deg,
+        rgba(89, 180, 58, 1) 7%,
+        rgba(14, 165, 233, 1) 62%,
+        rgba(69, 131, 252, 1) 83%
+      );
+      background: -webkit-linear-gradient(
+        180deg,
+        rgba(89, 180, 58, 1) 7%,
+        rgba(14, 165, 233, 1) 62%,
+        rgba(69, 131, 252, 1) 83%
+      );
+      background: linear-gradient(
+        180deg,
+        rgba(89, 180, 58, 1) 7%,
+        rgba(14, 165, 233, 1) 62%,
+        rgba(69, 131, 252, 1) 83%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#59b43a",endColorstr="#4583fc",GradientType=1);
+      margin: 0 auto;
+      border-radius: 30px;
+    }
+    
+      /* ?  DARK MODE BOTON LOGGIN */
+  
+  .botonRegisterDark {
+    padding: 10px 16px;
+    width: 25%;
+    border-radius: 8px;
+    border: none;
+    background-color: #353232;
+    color: white;
+  }
+  .botonRegisterDark:hover {
+    background-color: #524f4f;
+  }
+  
+   
+  }
+  

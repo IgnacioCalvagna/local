@@ -1,0 +1,34 @@
+@media (min-width: 1400px) {
+    .formularioBusqueda{
+        margin-bottom: 5%;
+    }
+
+
+  .searchMovieDark {
+    width: 40%;
+    float: right;
+    /* margin-top: 8%; */
+    margin-right: 5%;
+    padding: 0.5% 0.5%;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+  }
+
+  .searchMovieLight {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding: 0.5% 0.5%;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(92, 125, 186);
+    color: white;
+    
+  }
+
+  .searchMovieLight::placeholder {
+    color: aliceblue;
+  }
+}

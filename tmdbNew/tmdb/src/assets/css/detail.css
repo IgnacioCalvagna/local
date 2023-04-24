@@ -1,0 +1,124 @@
+.trama {
+  padding: 5%;
+  text-align: left;
+  background-color: #0ea5e9;
+  backdrop-filter: blur(150px);
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+
+.textDark {
+  color: white;
+}
+.textLight {
+  color: black;
+}
+
+
+
+.darkMode {
+  background-color: #0d253f;
+  color: #fffafa;
+}
+.lightMode {
+  background-color: #fffafa;
+  color: black;
+}
+
+
+
+@media (max-width: 576px) {
+
+  .detalleFotoYtitulo {
+    text-align: center;
+  }
+  .poster {
+    width: 95%;
+    text-align: center;
+    margin-top: 3%;
+    background-color: black;
+  }
+  .detalle {
+    width: 100%;
+    margin-top: 15%;
+    margin: 0 auto;
+    display: block;
+  }
+  .contenedorCompanias{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5e7490;
+    padding: 5%;
+  }
+  
+  .peliHomePage{
+    padding: 3%;
+  }
+  .companiaImg {
+    width: 25%;
+  }
+}
+
+
+
+@media (min-width: 900px) {
+  .poster {
+    width: 35%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: black;
+  }
+
+  .contenedorCompanias{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5e7490;
+    padding: 5%;
+  }
+  .companiaImg {
+    width: 25%;
+  }
+
+  .darkMode {
+    background-color: #0d253f;
+    color: #fffafa;
+  }
+  .lightMode {
+    background-color: #fffafa;
+    color: black;
+  }
+}
+
+
+
+@media (min-width: 1400px) {
+  .trama {
+    padding: 5%;
+    text-align: left;
+    backdrop-filter: blur(100px);
+    border-radius: 15px;
+  }
+
+  .detalle {
+    display: block;
+    margin-top: 15%;
+  }
+  .detalleFotoYtitulo{
+    display: block;
+  }
+  /* .poster {
+    width: 40%;
+  } */
+  .darkMode {
+    background-color: #0d253f;
+    color: #fffafa;
+  }
+  .lightMode {
+    background-color: #fffafa;
+    color: black;
+  }
+}

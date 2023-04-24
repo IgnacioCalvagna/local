@@ -1,0 +1,46 @@
+
+.titleHome {
+  width: 90%;
+  
+  margin: 0 auto;
+  background-image: url("../../img/fondo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  padding: 10%;
+}
+
+
+@media (min-width: 1400px) {
+  .homeDark {
+    color: white;
+  }
+  .homeLight {
+    color: black;
+  }
+
+
+
+
+
+
+  .searchMovie {
+    width: 40%;
+    float: right;
+    /* margin-top: 8%; */
+    margin-right: 5%;
+    padding: 0.5% 0.5%;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+  }
+
+  .loQueViene {
+    margin-left: 20%;
+  }
+  .cuerpoPelis {
+    margin-top: 15%;
+  }
+  
+}
