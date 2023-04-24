@@ -11,7 +11,6 @@ const db = require("./db/db");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
-app.use("/api", routes);
 app.use(
   cors({
     // Si aún no tenes deployado tu front en origin va la url local.
@@ -22,6 +21,7 @@ app.use(
   })
 );
 
+app.use("/api", routes);
 app.listen(port, () => {
   console.log(`server online on port http://localhost:${port}`);
 });
